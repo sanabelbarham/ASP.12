@@ -15,8 +15,7 @@ namespace LMS1.Models
         public string Title { get; set; }
         public string AuthorName { get; set; }
         public bool IsAvailable { get; set; }
-        /*        public Book() { }*/
-        // هون مش عارفة اذا لازم امرر ال دي تبع البوك لانه هناك اتوقع اي دي بيرسوم فمش منطق 
+      
         public Book(int id, string title, string authorName) 
         {
             Id = id;
